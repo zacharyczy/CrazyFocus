@@ -1,0 +1,42 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'app.shortvideoblocker'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'app.shortvideoblocker'
+        minSdk 29
+        targetSdk 36
+        versionCode 11
+        versionName '1.3.0'
+        testInstrumentationRunner 'app.shortvideoblocker.PagerProbe'
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    flavorDimensions 'edition'
+    productFlavors {
+        always {
+            dimension 'edition'
+            buildConfigField 'boolean', 'ALWAYS_ON', 'true'
+        }
+        toggle {
+            dimension 'edition'
+            buildConfigField 'boolean', 'ALWAYS_ON', 'false'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+}

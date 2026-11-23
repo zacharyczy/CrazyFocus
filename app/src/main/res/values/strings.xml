@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">CrazyFocus</string>
+    <string name="service_description">微信视频号确认滑动换片后返回。进入哔哩哔哩 Story Mode 竖屏流时返回。识别在本机进行。</string>
+    <string name="section_status">限制状态</string>
+    <string name="status_permission">需要无障碍授权</string>
+    <string name="status_on">限制已开启</string>
+    <string name="status_off">限制已关闭</string>
+    <string name="status_scheduled_off">当前不在生效时段</string>
+    <string name="permission_help">在系统无障碍设置中启用 CrazyFocus，授权后即可识别短视频流并按规则退出。</string>
+    <string name="permission_button">打开无障碍设置</string>
+    <string name="permission_unavailable">请从系统设置打开无障碍。</string>
+    <string name="always_help">授权有效时持续限制。可以在系统无障碍设置中撤销授权。</string>
+    <string name="section_coverage">支持范围</string>
+    <string name="coverage_wechat">微信视频号</string>
+    <string name="coverage_wechat_detail">可观看第一条，纵向滑动并确认换片后退出。也适用于从公众号进入的视频号播放流。</string>
+    <string name="coverage_bilibili">哔哩哔哩竖屏视频流</string>
+    <string name="coverage_bilibili_detail">确认进入竖屏刷视频页面（Story Mode）后立即退出。</string>
+    <string name="section_mode">生效方式</string>
+    <string name="mode_on">开启</string>
+    <string name="mode_off">关闭</string>
+    <string name="mode_scheduled">按时段</string>
+    <string name="schedule_start">开始</string>
+    <string name="schedule_end">结束</string>
+    <string name="schedule_value">%1$s  %2$s</string>
+    <string name="schedule_status">每天 %1$s–%2$s</string>
+    <string name="schedule_next_day">次日 %1$s</string>
+    <string name="schedule_help">每天按手机本地时间重复。结束时间早于开始时间时，持续到次日。</string>
+    <string name="schedule_same_time">开始时间和结束时间需要不同。</string>
+    <string name="section_battery">后台运行</string>
+    <string name="battery_help">如果拦截偶尔停用，请在应用信息中查找「电池」「应用耗电量」或「省电策略」，按系统提供的选项允许后台运行。</string>
+    <string name="battery_button">打开应用信息</string>
+    <string name="battery_unavailable">请手动打开「设置 → 应用 → CrazyFocus」。</string>
+    <string name="version_label">版本 %1$s</string>
+</resources>
